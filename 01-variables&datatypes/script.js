@@ -97,7 +97,7 @@ else {
 };*/
 
 //------------------------If-Else--------------
- let age = prompt("Enter your Age");
+ /*let age = prompt("Enter your Age");
  age = Number (age);
 
  if (age>=18 && age<80 ) {
@@ -105,4 +105,31 @@ else {
     }
  else{
     alert("You are not Elligible for Driving licence")
- }
+ };*/
+ let marks =prompt("enter your marks");
+ marks = Number(marks);
+if (marks<=33 && marks>=0) {
+    document.writeln("you are fail, practice hard")
+}
+else if (marks<=44 && marks>=33){
+document.writeln("you got D,give some attention to maths")
+}
+else if (marks<=59 && marks>=45){
+document.writeln("you got C,practice more")
+
+}
+else if (marks<=74 && marks>=60){
+document.writeln("you got B ,Good, just practice.")
+}
+else if (marks<=89 && marks>=75){
+document.writeln("you got A ,very good,you nailed it ")
+
+}
+else if (marks<=100 && marks>=90){
+document.writeln("you got A+,Perfect!!")
+
+}
+else {
+document.writeln("please enter a valid no. , between 0-100")
+    
+}
