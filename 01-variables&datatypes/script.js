@@ -1,5 +1,5 @@
-    // -------------Datatypes------------
-    /*var myName ="Jatin Sharma";
+// -------------Datatypes------------
+/*var myName ="Jatin Sharma";
     const myAge = 19;
     var isStudent = true ;
     console.log(myName);
@@ -19,8 +19,8 @@
     console.log(country);
     console.log(pincode);*/
 
-    //----------Arthmatic Operators--------
-    /*const num1 = 25;
+//----------Arthmatic Operators--------
+/*const num1 = 25;
     const num2 = 25;
     console.log(num1+num2);
     console.log(num1-num2);
@@ -61,14 +61,14 @@
     console.log(country);
     console.log(pincode);*/
 
-    //----------Arthmatic Operators--------
-    /*const num1 = 25;
+//----------Arthmatic Operators--------
+/*const num1 = 25;
     const num2 = 25;
     console.log(num1+num2);
     console.log(num1-num2);
     console.log(num1*num2);
     console.log(num1/num2);
-    console.log(num1%num2);*/
+    console.log(num1%num2);
 
     let num1 = prompt("enter number1")
     let num2 = prompt("enter number2")
@@ -82,5 +82,16 @@
         let divi = num1/num2;
         let rem =num1%num2;
         
-        alert("sum="+sum + "diff="+diff + "multi="+multi + "divi="+divi + "rem="+rem);
+        alert("sum="+sum + "diff="+diff + "multi="+multi + "divi="+divi + "rem="+rem);*/
 
+        //---------------------Statements-------------------
+
+        let num1 = prompt ("enter your no.")
+        num1 = Number (num1);
+
+        if (num1%2==0) {
+            alert(num1 + "is a even no.")
+        }
+else {
+    alert(num1 + "is a odd no ")
+}
