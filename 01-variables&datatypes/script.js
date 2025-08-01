@@ -86,7 +86,7 @@
 
         //---------------------Statements-------------------
 
-        let num1 = prompt ("enter your no.")
+        /*let num1 = prompt ("enter your no.")
         num1 = Number (num1);
 
         if (num1%2==0) {
@@ -94,4 +94,15 @@
         }
 else {
     alert(num1 + "is a odd no ")
-}
+};*/
+
+//------------------------If-Else--------------
+ let age = prompt("Enter your Age");
+ age = Number (age);
+
+ if (age>=18 && age<80 ) {
+    alert(age + "is Elligible for Driving Licence")  
+    }
+ else{
+    alert("You are not Elligible for Driving licence")
+ }
