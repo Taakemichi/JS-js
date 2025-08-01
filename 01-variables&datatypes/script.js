@@ -11,3 +11,9 @@ console.log(typeof isStudent );*/
 let city = "Delhi";
 const country = "India";
 var pincode = 160041;
+
+ city = "chandigarh";   
+ pincode = 160042;
+console.log(city);
+console.log(country);
+console.log(pincode);
