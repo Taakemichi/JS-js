@@ -135,7 +135,7 @@ document.writeln("please enter a valid no. , between 0-100")
     
 };*/
 
-var num1= prompt("enter your number");
+/*var num1= prompt("enter your number");
 var num2= prompt("enter your number");
 var oper= prompt("choose your operator");
 num1 = Number(num1);
@@ -152,5 +152,23 @@ if (oper === "+") {
     document.writeln(`${num1} % ${num2} = ${num1 % num2}`);
 } else {
     document.writeln("❌ Invalid operator");
+}*/
+
+let num1=prompt("select no.1")
+let num2 =prompt("select no.2")
+num1 = Number(num1);
+num2 = Number(num2);
+if (num1 > num2) {
+    document.writeln("num1 is Greater then num2")
+} 
+else if (num1 < num2){
+    Document.writeln("num1 is lesser then num2")
 }
+else if (num1 = num2){
+    document.writeln("both are eqauls")
+}
+else {
+   ducument.writeln("invalid entry")
+};
+
 
