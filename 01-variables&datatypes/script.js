@@ -169,6 +169,7 @@ else if (num1 = num2){
 }
 else {
    ducument.writeln("invalid entry")
-};
+};*/
 
-//////////////////
+///////// variables/////////
+
