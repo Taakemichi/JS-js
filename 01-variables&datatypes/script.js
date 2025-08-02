@@ -135,4 +135,22 @@ document.writeln("please enter a valid no. , between 0-100")
     
 };*/
 
+var num1= prompt("enter your number");
+var num2= prompt("enter your number");
+var oper= prompt("choose your operator");
+num1 = Number(num1);
+num2 = Number(num2);
+if (oper === "+") {
+    document.writeln(`${num1} + ${num2} = ${num1 + num2}`);
+} else if (oper === "-") {
+    document.writeln(`${num1} - ${num2} = ${num1 - num2}`);
+} else if (oper === "*") {
+    document.writeln(`${num1} * ${num2} = ${num1 * num2}`);
+} else if (oper === "/") {
+    document.writeln(`${num1} / ${num2} = ${num1 / num2}`);
+} else if (oper === "%") {
+    document.writeln(`${num1} % ${num2} = ${num1 % num2}`);
+} else {
+    document.writeln("❌ Invalid operator");
+}
 
