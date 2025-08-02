@@ -134,7 +134,7 @@ else {
 document.writeln("please enter a valid no. , between 0-100")
     
 };*/
-
+///////////////// mini calculator//////////////////
 /*var num1= prompt("enter your number");
 var num2= prompt("enter your number");
 var oper= prompt("choose your operator");
@@ -152,8 +152,8 @@ if (oper === "+") {
     document.writeln(`${num1} % ${num2} = ${num1 % num2}`);
 } else {
     document.writeln("❌ Invalid operator");
-}*/
-
+}
+////////////////////////comparison numbers///////////////////////
 let num1=prompt("select no.1")
 let num2 =prompt("select no.2")
 num1 = Number(num1);
@@ -171,4 +171,4 @@ else {
    ducument.writeln("invalid entry")
 };
 
-
+//////////////////
