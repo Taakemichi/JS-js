@@ -105,7 +105,8 @@ else {
     }
  else{
     alert("You are not Elligible for Driving licence")
- };*/
+ };
+
  let marks =prompt("enter your marks");
  marks = Number(marks);
 if (marks<=33 && marks>=0) {
@@ -132,4 +133,6 @@ document.writeln("you got A+,Perfect!!")
 else {
 document.writeln("please enter a valid no. , between 0-100")
     
-}
+};*/
+
+
