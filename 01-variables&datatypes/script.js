@@ -191,4 +191,4 @@ alert("Wear summer clothes")
 else {
     alert("stay hydrated and avoid sun")
 }
-console.log("thand to bohot hai")
+console.log("thand to bohot hai");
