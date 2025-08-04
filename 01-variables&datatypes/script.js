@@ -151,8 +151,8 @@ if (oper === "+") {
 } else if (oper === "%") {
     document.writeln(`${num1} % ${num2} = ${num1 % num2}`);
 } else {
-    document.writeln("❌ Invalid operator");
-}
+    document.writeln("❌ Invalid operator");*/
+
 ////////////////////////comparison numbers///////////////////////
 let num1=prompt("select no.1")
 let num2 =prompt("select no.2")
@@ -162,14 +162,14 @@ if (num1 > num2) {
     document.writeln("num1 is Greater then num2")
 } 
 else if (num1 < num2){
-    Document.writeln("num1 is lesser then num2")
+    document.writeln("num1 is lesser then num2")
 }
 else if (num1 = num2){
     document.writeln("both are eqauls")
 }
 else {
    ducument.writeln("invalid entry")
-};*/
+};
 
 //////////Weather Clothing Addvisor///////////
 
