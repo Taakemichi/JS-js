@@ -171,5 +171,24 @@ else {
    ducument.writeln("invalid entry")
 };*/
 
-///////// variables/////////
+//////////Weather Clothing Addvisor///////////
 
+let weather = prompt("Whats the Temperature today")
+weather = Number(weather)
+
+if (weather<=0) {
+    alert("Please Wear a heavy jacket today")
+} 
+else if (weather<=15) {
+    alert("Wear a Sweater")
+}
+else if (weather<=25){
+alert("wear a light jacket");
+}
+else if (weather<=35){
+alert("Wear summer clothes")
+}
+else {
+    alert("stay hydrated and avoid sun")
+}
+console.log("thand to bohot hai")
